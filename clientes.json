@@ -1,0 +1,74 @@
+{
+  "client": [
+    {
+      "nombre": "nombre",
+      "apellido": "apellido",
+      "nit_cc": "nit_cc",
+      "direccion": "direccion",
+      "ciudad": "Bucaramanga",
+      "telefono": "telefono",
+      "cupoDisponible": "cupoDisponible",
+      "estado": "estado"
+    },
+    {
+      "nombre": "nombre1",
+      "apellido": "apellido",
+      "nit_cc": "nit_cc",
+      "direccion": "direccion",
+      "ciudad": "Bucaramanga",
+      "telefono": "telefono",
+      "cupoDisponible": "cupoDisponible",
+      "estado": "estado"
+    },
+    {
+      "nombre": "nombre2",
+      "apellido": "apellido",
+      "nit_cc": "nit_cc",
+      "direccion": "direccion",
+      "ciudad": "Bucaramanga",
+      "telefono": "telefono",
+      "cupoDisponible": "cupoDisponible",
+      "estado": "estado"
+    },
+    {
+      "nombre": "nombre3",
+      "apellido": "apellido",
+      "nit_cc": "nit_cc",
+      "direccion": "direccion",
+      "ciudad": "Bucaramanga",
+      "telefono": "telefono",
+      "cupoDisponible": "cupoDisponible",
+      "estado": "estado"
+    },
+    {
+      "nombre": "nombre4",
+      "apellido": "apellido",
+      "nit_cc": "nit_cc",
+      "direccion": "direccion",
+      "ciudad": "Bucaramanga",
+      "telefono": "telefono",
+      "cupoDisponible": "cupoDisponible",
+      "estado": "estado"
+    },
+    {
+      "nombre": "nombre5",
+      "apellido": "apellido",
+      "nit_cc": "nit_cc",
+      "direccion": "direccion",
+      "ciudad": "Bucaramanga",
+      "telefono": "telefono",
+      "cupoDisponible": "cupoDisponible",
+      "estado": "estado"
+    },
+    {
+      "nombre": "nombre6",
+      "apellido": "apellido",
+      "nit_cc": "nit_cc",
+      "direccion": "direccion",
+      "ciudad": "Bucaramanga",
+      "telefono": "telefono",
+      "cupoDisponible": "cupoDisponible",
+      "estado": "estado"
+    }
+  ]
+}

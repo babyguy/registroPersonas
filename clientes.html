@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Option 1: Include in HTML -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="admin-container">
+        <!-- <i class="bi-person-badge icono-admin"></i> -->
+        <img src="./img/admin.svg" class="img-person" />
+        <br />
+        <h3>Admin</h3>
+        <a href="./index.html" class="btn btn-inicio"
+          ><i class="bi-house"></i> inicio</a
+        >
+        <a href="./clientes.html" class="btn btn-clientes">
+          <i class="bi-person"></i> Clientes
+        </a>
+        <a href="./creidtos.html" class="btn btn-reditos">
+          <i class="bi-wallet"></i> Créditos
+        </a>
+        <a class="btn btn-logOut">Cerrar sesion</a>
+      </div>
+
+      <div class="clientes-container">
+        <div class="title-clientes">
+          <h2>Clientes</h2>
+        </div>
+        <div class="list-clientes">
+          <div class="buscar-agregar-cliente">
+            
+            <div>
+                <input
+                type="search"
+                class="search"
+                placeholder="buscar por nombre,nit o cc"
+              />
+              <i class="bi-search"></i>
+            </div>
+            <a href="" class="btn crear-cliente">Crear cliente </a>
+          </div>
+          <div class="clientes">
+            <table class="tabla-clientes">
+              <thead class="tr-clientes">
+                <tr>
+                  <th>nombre</th>
+                  <th>Apellido</th>
+                  <th>NIT/CC</th>
+                  <th>Direccion</th>
+                  <th>Ciudad</th>
+                  <th>Telefono</th>
+                  <th>Cupo disponible</th>
+                  <th>Estado</th>
+                  <th>Acciones</th>
+                </tr>
+              </thead>
+
+              <tbody id="clientes-tabla"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

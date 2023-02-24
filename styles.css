@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  gap: 25px;
+  background-color: rgba(0, 207, 66, 0.644);
+}
+
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 80vh;
+  border-radius: 40px;
+  background-color: white;
+  margin: 20px;
+}
+
+.img-person {
+  height: 100px;
+}
+
+/* inicio */
+.title-inicio {
+  width: 80vw;
+  margin: 20px;
+  height: 60px;
+  background-color: white;
+  border-radius: 40px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.inicio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 75vw;
+  height: 60vh;
+}
+
+.card {
+  background-color: white;
+  width: 250px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.folder-check {
+  height: 40px;
+}
+
+.card:hover {
+  background-color: rgba(0, 255, 0, 0.87);
+}
+
+/* botones */
+.btn {
+  background-color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  width: 90%;
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover {
+  background-color: lime;
+}
+
+/* clientes */
+.clientes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+}
+
+.title-clientes {
+  width: 75vw;
+  margin: 20px;
+  height: 60px;
+  background-color: white;
+  border-radius: 40px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.list-clientes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.buscar-agregar-cliente {
+  height: 60px;
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.search {
+  border: none;
+  padding: 15px;
+  border-bottom: 2px solid lime;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 1px 1px 2px rgb(94, 93, 93);
+}
+
+.bi-search {
+  height: 40px;
+  cursor: pointer;
+}
+.crear-cliente {
+  padding: 15px;
+  font-size: 13px;
+  width: 10%;
+}
+
+.tabla-clientes {
+  gap: 10px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+thead {
+  background-color: lime;
+}
+.tabla-clientes th {
+  padding: 10px 25px;
+}
+.tabla-clientes td {
+  padding: 10px 25px;
+}
+
+.tabla-clientes th:first-child {
+  border-radius: 10px 0 0 10px;
+}
+.tabla-clientes th:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.icon {
+  height: 20px;
+  gap: 10px;
+}
+
+.icon:hover {
+  cursor: pointer;
+  background-color: lime;
+  padding: 2px;
+  border-radius: 2px;
+}
