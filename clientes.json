@@ -1,14 +1,14 @@
 {
   "client": [
     {
-      "nombre": "nombre",
-      "apellido": "apellido",
-      "nit_cc": "nit_cc",
-      "direccion": "direccion",
+      "nombre": "gustavo",
+      "apellido": "cardenas",
+      "nit_cc": "91280223",
+      "direccion": "call 35 32 85",
       "ciudad": "Bucaramanga",
-      "telefono": "telefono",
-      "cupoDisponible": "cupoDisponible",
-      "estado": "estado"
+      "telefono": "3153746353-3333333333",
+      "cupoDisponible": 85000000,
+      "estado": "activo"
     },
     {
       "nombre": "nombre1",

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Option 1: Include in HTML -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="admin-container">
+        <!-- <i class="bi-person-badge icono-admin"></i> -->
+        <img src="./img/admin.svg" class="img-person" />
+        <br />
+        <h3>Admin</h3>
+        <a href="./index.html" class="btn btn-inicio"
+          ><i class="bi-house"></i> inicio</a
+        >
+        <a href="./clientes.html" class="btn btn-clientes">
+          <i class="bi-person"></i> Clientes
+        </a>
+        <a href="./creidtos.html" class="btn btn-reditos">
+          <i class="bi-wallet"></i> Créditos
+        </a>
+        <a class="btn btn-logOut">Cerrar sesion</a>
+      </div>
+
+      <div class="new-cliente-container">
+        <div class="title-new-cliente">
+          <h2>Nuevo Cliente</h2>
+        </div>
+        <div class="form-new-cliente">
+            <div><a class="btn" href="./clientes.html">Atras</a></div>
+            <h3>Datos Personales</h3>
+            <div class="form-cliente">
+                <div class="info-cliente">
+                    <div class="input-cliente">
+                        <p>Nombre</p>
+                        <input placeholder="Nombre" type="text" name="" id="nombre">
+                    </div>
+                    <div class="input-cliente">
+                        <p>Apellido</p>
+                        <input placeholder="Apellido" type="text" name="" id="apellido">
+                    </div>
+                    <div class="input-cliente">
+                        <p>NIT o CC</p>
+                        <input placeholder="NIT o CC" type="text" name="" id="nit_cc">
+                    </div>
+                    <div class="input-cliente">
+                        <p>Direccion</p>
+                        <input ut placeholder="Direccion" type="text" name="" id="direccion">
+                    </div>
+                    <div class="input-cliente">
+                        <p>Ciudad</p>
+                        <select id="ciudad">
+                            <option value="select">select</option>                    
+                            <option value="Bucaramanga">Bucaramanga</option>                    
+                            <option value="Bogota">Bogota</option>                    
+                            <option value="Medellin">Medellin</option>                    
+                            <option value="Cali">Cali</option>                    
+                            <option value="Cartagena">Cartagena</option>                    
+                        </select>
+                    </div>
+                    <div class="input-cliente">
+                        <p>Telefono</p>
+                        <input placeholder="telefono" type="text" name="" id="telefono">
+                    </div>
+                    <div class="input-cliente">
+                        <p>Estado</p>
+                        <input placeholder="Estado del credito" type="text" name="" id="estado">
+                    </div>
+                    <br>
+                    
+                </div>
+                <div class="info-cupo">
+                    <div class="input-cliente">
+                        <p>Cupo Total</p>
+                        <input placeholder="Cupo Total" type="text" name="" id="cupoTotal">
+                    </div>
+                    <div class="input-cliente">
+                        <p>Cupo Disponible</p>
+                        <input placeholder="Cupo Disponible" type="text" name="" id="cupoDisponible">
+                    </div>
+                    <div class="input-cliente">
+                        <p>Dias de gracia</p>
+                        <input placeholder="Dias de gracia" type="text" name="" id="diasG">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button onclick="add_cliente()" class="btn guardar-cliente">guardar</button>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
